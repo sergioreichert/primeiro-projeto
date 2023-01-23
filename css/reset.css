@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} /*o asterisco é um seletor, no CSS cria-se seletores para informar onde estamos fazendo as mudanças. o "*" (asterisco) é um seletor para informar que estamos configurando a página inteira e oque está entre chaves são os atributos a serem mudados. 
+o atributo "padding" seria o espaçamento dos objetos e box-sizing será explicado mais pra frente */
+ul {
+    list-style: none;
+} /*ul é um seletor referente a tag do html referente a lista. O atributo "list-style: none" é para tirar qualquer definição por padrão do navegador,como aquelas bolinhas, números e etc.*/
+a {
+    text-decoration: none;
+}
+/*O seletor "a" se refere aos links e o atributo "text-decoration: none" é para fazer o resete das configurações por padrão do navegador.
+todos os seletores acima são para resetar os parâmetros do navegador antes de começarmos a trabalhar*/
