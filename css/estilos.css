@@ -4,13 +4,12 @@ body {
 
 .cabecalho {
     display: flex;
-    /*alinhar horizontalmente*/
     justify-content: space-between;
-    /*colocar espaço entre dois elementos*/
+   
     padding: 30px;
     max-width: 1440px;
     margin: 0 auto;
-    /*o primeiro valor se refere ao topo e auto as laterais, auto centraliza automaticamente*/
+    
 
 }
 
@@ -30,7 +29,7 @@ body {
     color: #ffffff;
     font-size: 25px;
     padding: 10px 20px;
-    /*o primeiro valor se refere ao topo e o segundo aos lados*/
+   
     border-radius: 50px;
     /*deixar as bordas arredondadas*/
     transition: 0.2s;
