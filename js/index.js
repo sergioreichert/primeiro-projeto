@@ -10,7 +10,7 @@ function alternarModal(){
 
 botaoTrailer.addEventListener("click", () => {
 	alternarModal()
-	video.setAttribute("src", linkDoVideo)
+	video.setAttribute("src", 'linkDoVideo')
 });
 
 botaoFecharModal.addEventListener("click", () => {
